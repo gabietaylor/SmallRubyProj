@@ -10,4 +10,8 @@ print "What city are you from? "
 city = gets.chomp
 city.capitalize!
 
-puts "Your name is #{first_name} #{last_name} and you're from #{city}!"
+print "What state or province are you from? "
+state = gets.chomp
+state.upcase!
+
+puts "Your name is #{first_name} #{last_name} and you're from #{city}, #{state}!"
