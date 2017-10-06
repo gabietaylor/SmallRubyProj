@@ -6,4 +6,8 @@ print "What's your last name? "
 last_name = gets.chomp
 last_name.capitalize!
 
-puts "Your name is #{first_name} #{last_name}!"
+print "What city are you from? "
+city = gets.chomp
+city.capitalize!
+
+puts "Your name is #{first_name} #{last_name} and you're from #{city}!"
